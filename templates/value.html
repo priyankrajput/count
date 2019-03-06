@@ -1,0 +1,12 @@
+
+<h2>Entered text</h2>
+{{fulltext}}
+<br>
+<h3>Total words</h3>
+{{length}}
+<br>
+<h3>Count of each word</h3>
+{% for word,value in word_dic%}
+{{word}} = {{ value}}
+<br>
+{% endfor %}
